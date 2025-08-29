@@ -1,5 +1,5 @@
 {config, ...} : {
-	programs.nix-direnv = {
+	programs.direnv = {
 		enable = true;
 	};
 }

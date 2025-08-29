@@ -17,7 +17,7 @@
         shellAliases = {
             ll = "ls -la";
         };
-	initExtra = ''
+	initContent= ''
 	  # custom zsh init
 	'';
      };
