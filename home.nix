@@ -49,6 +49,9 @@
 	
 	btop
 	iftop
+
+	# new added
+	direnv
   ];
 
 	programs.home-manager.enable = true;		

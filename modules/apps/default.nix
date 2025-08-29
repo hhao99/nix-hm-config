@@ -4,5 +4,6 @@
         ./zsh.nix
         ./starship.nix
         ./alacritty.nix
+	./direnv.nix
     ];
 }
