@@ -19,6 +19,7 @@
         };
 	initContent= ''
 	  # custom zsh init
+	  eval "$(direnv hook zsh)"
 	'';
      };
 }
