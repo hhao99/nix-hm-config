@@ -8,6 +8,7 @@
                 "git"
                 "npm"
                 "history"
+		"direnv"
             ];
         };
         autosuggestion.enable = true;
@@ -15,8 +16,10 @@
 
         shellAliases = {
             ll = "ls -la";
-            
         };
+	initExtra = ''
+	  # custom zsh init
+	'';
      };
 }
 
