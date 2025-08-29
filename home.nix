@@ -51,7 +51,7 @@
 	iftop
 
 	# new added
-	direnv
+	nix-direnv
   ];
 
 	programs.home-manager.enable = true;		
