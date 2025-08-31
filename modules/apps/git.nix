@@ -5,7 +5,7 @@
         userEmail = "hhao99@gmail.com";
 	lfs.enable = true;
 
-		alias = {
+		aliases =  {
 			ci = "commit";
 			co = "checkout";
 			cb = "branch";
