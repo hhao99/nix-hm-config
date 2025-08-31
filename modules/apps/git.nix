@@ -6,10 +6,10 @@
 	lfs.enable = true;
 
 	alias = {
-		ci = "commit"
-		co = "checkout"
-		cb = "branch"
-		st = "status"
+		ci = "commit";
+		co = "checkout";
+		cb = "branch";
+		st = "status";
 	};
 		
 }
