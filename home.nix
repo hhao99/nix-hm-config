@@ -19,6 +19,10 @@
 	tmux
 	neovim
 
+	# git
+	git
+	lazygit
+	github-cli
 	# no-free program
 	google-chrome
 	vscode
