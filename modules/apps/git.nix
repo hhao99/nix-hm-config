@@ -5,11 +5,12 @@
         userEmail = "hhao99@gmail.com";
 	lfs.enable = true;
 
-	alias = {
-		ci = "commit";
-		co = "checkout";
-		cb = "branch";
-		st = "status";
-	};
-		
+		alias = {
+			ci = "commit";
+			co = "checkout";
+			cb = "branch";
+			st = "status";
+		};
+
+	};	
 }
