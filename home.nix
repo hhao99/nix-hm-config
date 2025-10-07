@@ -27,6 +27,7 @@
 	# google-chrome
 	firefox
 	vscode
+	iina
 
 	# font
 	noto-fonts
