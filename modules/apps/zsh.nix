@@ -16,8 +16,8 @@
 
         shellAliases = {
             ll = "ls -la";
-	    nix-shell = 'nix-shell --run $SHELL'
-	    nixd = 'nix develop -c $SHELL "@"'
+	    nix-shell = "nix-shell --run $SHELL";
+	    nixd = "nix develop -c $SHELL '@'";
         };
 	initContent= ''
 	  # custom zsh init
