@@ -14,11 +14,10 @@
 
   home.packages = with pkgs; [
 	
-	neofetch
-	nnn
 	tmux
 	neovim
-
+	helix
+	
 	# git
 	git
 	lazygit
@@ -52,13 +51,14 @@
 
 	# productivity
 	glow
-	
 	btop
 	iftop
 
 	# new added
 	nix-direnv
+	zsh
   ];
+  	users.users.ehao.shell=pkgs.zsh
 
 	programs.home-manager.enable = true;		
 		
