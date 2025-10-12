@@ -6,8 +6,9 @@
   home.username = "hao";
   home.homeDirectory = "/Users/hao";
   home.stateVersion = "25.05"; # Please read the comment before changing.
+  
   nixpkgs.config.allowUnfree = true;
-
+  programs.home-manager.enable = true;		
 	imports = [
 		./modules/apps
 	];
@@ -58,9 +59,7 @@
 	nix-direnv
 	zsh
   ];
-  	users.users.ehao.shell=pkgs.zsh
 
-	programs.home-manager.enable = true;		
 		
 	
 }
