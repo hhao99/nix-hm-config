@@ -20,8 +20,6 @@
 	    nixd = "nix develop -c $SHELL '@'";
         };
 	initContent= ''
-	  # custom zsh init
-	  eval "$(direnv hook zsh)"
 	'';
      };
 }
