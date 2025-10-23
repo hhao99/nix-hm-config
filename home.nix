@@ -23,6 +23,9 @@
 	git
 	lazygit
 	github-cli
+
+	# jj
+	jujutsu
 	# no-free program
 	# google-chrome
 	firefox
